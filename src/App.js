@@ -9,7 +9,7 @@ function App() {
   const [city, setCity] = useState("London");
   useEffect(() => {
     const interval = setInterval(() => {
-      axios.get(`http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=bcd92a4aeb2c54e5f8c6966dc27c0cdf`)
+      axios.get(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=bcd92a4aeb2c54e5f8c6966dc27c0cdf`)
       .then((response) => {
         console.log(response.data)
         setData(response.data);
