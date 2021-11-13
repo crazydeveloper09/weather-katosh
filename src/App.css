@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 30px;
+}
+
+h1 span {
+    color: darkred;
+}
+
+.form-select {
+    margin-bottom: 30px;
+}
+
+.form-select:focus {
+    box-shadow: none;
+    border: 2px solid darkred;
+}
+
+th, td {
+   text-align: center;
+}
+td {
+    border-right: 1px solid #212529;
+}
+td:first-of-type {
+    border-left: 1px solid #212529;
+}
+tr:last-of-type {
+    border-bottom: 1px solid #212529;
+}
+th {
+    border: 1px solid #212529;
+}
